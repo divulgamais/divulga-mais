@@ -31,11 +31,7 @@ const eventos = {
 const galeria = {
   'Marcha da Consciência Negra': {
     descricao: 'Guarulhos Contra o racismo. Por Demobracia e igualdade, reparação e justiça racial.',
-    images: ['images/marcha-consciencia.jpeg', 'images/xxx', 'images/xxx']
-  },
-  'xxx': {
-    descricao: 'xxx',
-    images: ['images/xxx', 'images/xxx', 'images/xxx']
+    images: ['images/marcha-consciencia-01.jpg', 'images/marcha-consciencia-02.jpg', 'images/marcha-consciencia-03.jpg','images/marcha-consciencia-04.jpg']
   }
 };
 
@@ -87,7 +83,7 @@ function showEventGallery(eventName) {
         const modalBody = document.getElementById('eventModalBodyGallery');
         
         // 2. Gerar o HTML das miniaturas
-        let galleryHTML = '<div class="row row-cols-3 g-2">'; // Usando o grid do Bootstrap para miniaturas
+        let galleryHTML = '<div class="row row-cols-2 g-1">'; // Usando o grid do Bootstrap para miniaturas
         
         evento.images.forEach(imagePath => {
             galleryHTML += `
@@ -97,7 +93,7 @@ function showEventGallery(eventName) {
                         alt="${eventName}" 
                         class="img-fluid rounded shadow-sm gallery-thumbnail"
                         onclick="showFullscreenImage('${imagePath}', '${eventName}')" 
-                        style="cursor: pointer; height: 100px; object-fit: cover;"
+                        style="cursor: pointer;  object-fit: cover;"
                     >
                 </div>
             `;

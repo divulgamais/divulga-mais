@@ -8,24 +8,24 @@
 // ============================================
 
 const eventos = {
-  'Marcha da Consciência Negra': {
-    data: '20/11/2025',
-    local: 'Marco da Consciência Negra (próximo à Praça dos Estudantes - Centro) Guarulhos-SP',
-    descricao: 'Guarulhos Contra o racismo. Por Demobracia e igualdade, reparação e justiça racial.',
-    imagem: 'images/marcha-consciencia-infos.jpg'
+  'Aniversário de São Paulo': {
+    data: '25/01/2026',
+    local: 'Parque do Carmo e Parque do Povo',
+    descricao: 'Celebre o aniversário de São Paulo com shows gratuitos de música eletrônica ao ar livre. O Parque do Carmo rececebe artistas como Vintage Cuture, ANNA e Mochakk em uma experiência unica para comemorar a cidade com muita música e energia.',
+    imagem: 'images/lago-parque-do-carmo.jpg'
   },
-  'Feira de Artesanato': {
-    data: '12/11/2025',
-    local: 'Area de Piquenique',
-    descricao: 'Descubra produtos artesanais únicos feitos por artesãos locais. A Feira de Artesanato oferece uma variedade de peças exclusivas, desde decoração até roupas e acessórios, tudo criado com criatividade e paixão.',
-    imagem: 'images/artisan-fair.png'
+  'Verão nos Parques': {
+    data: '24/01 a 01/02/2026',
+    local: 'Disposível na maioria dos SESCs',
+    descricao: 'Na semana do dia 24/01 ao dia 01/02, parques da região metropolitana de São Paulo recebem atividades esportivas e recreativas gratuitas para todos. Uma ótima opção de lazer ao ar livre, ideal para um bate-volta.',
+    imagem: 'images/Sesc02.jpg'
   },
-  'Aula de Yoga ao Ar Livre': {
-    data: '18/11/2025',
-    local: 'Gramado Central',
-    descricao: 'Pratique yoga em contato direto com a natureza. Esta aula ao ar livre é perfeita para relaxar, meditar e conectar-se com o corpo e a mente em um ambiente tranquilo e acolhedor no coração do Ibirapuera.',
-    imagem: 'images/yoga-outdoor.jpg'
-  }
+  'Atividades educativas e trilhas': {
+    data: 'Durante as férias de janeiro de 2026',
+    local: 'Parques ecológicos como Parque ecológico do Tietê, Parque da Juventude, Parque estadual do Belem e outros',
+    descricao: 'Durante as férias de janeiro de 2026, parques como Parque Ecológico do TIetê, Parque da Juventudo e Parque Estadual do Belém oferecem programação educativa e trilhas gratuitas, ideal para contato com a natureza e aprendizado ao ar livre.',
+    imagem: 'images/trilha.jpg'
+  },
 };
 
 const galeria = {
